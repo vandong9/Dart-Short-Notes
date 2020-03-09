@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'basic_example.dart';
 import 'class_sample.dart';
+import 'isolate_sample.dart';
 import 'mixin_sample.dart';
 
 class OverviewExamplePage extends StatelessWidget {
@@ -23,7 +24,13 @@ class OverviewExamplePage extends StatelessWidget {
     ExtensionExample().run();
   }
 
-  runAsyncSample() {}
+  IsolateSample isolateSample;
+  runAsyncSample() {
+    if (isolateSample == null) {
+      isolateSample = IsolateSample();
+    }
+    isolateSample.run();
+  }
 
   @override
   Widget build(BuildContext context) {

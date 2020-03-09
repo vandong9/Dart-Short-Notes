@@ -71,6 +71,8 @@ class B implements InterfaceA {
   }
 }
 
+// This code from https://quickbirdstudios.com/blog/dart-extension-methods/
+// The idea is can use extension to implement abstract class. so make existed class to conform interface.
 // abstract class MapDrawable {}
 // extension on Widget implements MapDrawable {}
 // class Map {

@@ -14,6 +14,10 @@ class ClassFromLib {
     print("_privateString: " + _privateString);
   }
 
+  _printClassFromLib() {
+    print("printClassFromLib");
+  }
+
   Future<String> fetchUserOrder() async {
     return Future.delayed(Duration(seconds: 4), () => 'Large Latte');
   }
