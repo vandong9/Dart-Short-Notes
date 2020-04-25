@@ -191,7 +191,7 @@ extension [\&lt;extension\_name\&gt;] on class/abstract class {}
 
 ## Async:
 
-**F**** uture** represents the result of an asynchronous operation, and can have two states: uncompleted or completed.
+**Future** represents the result of an asynchronous operation, and can have two states: uncompleted or completed.
 
 The completed have result or error
 
